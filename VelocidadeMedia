@@ -1,0 +1,7 @@
+print ("\n:: Se você correr 65 quilômetros em 3 horas, 23 minutos e 17 segundos, qual é a sua velocidade média em m/s?\n")
+
+calculasegundo = 3 * 3600 + 23 * 60 + 17
+calculametro = 65 * 1000
+vm = calculametro / calculasegundo
+
+print ("\nVelocidade media = {:.0f} m/s".format(vm))
