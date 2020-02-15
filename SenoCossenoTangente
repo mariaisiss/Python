@@ -1,0 +1,12 @@
+import math
+
+print ("\n:: Uma figura cujo ângulo e 80 graus. Imprima o seno, co-seno, tangente, secante, cp-secante, e co-tangente.\n")
+
+ang = 80
+
+print ("\nO seno vale:", math.sin(ang))
+print ("\nO cosseno vale:", math.cos(ang))
+print ("\nA tangente vale:", math.tan(ang))
+print ("\nA secante vale:", math.sinh(ang))
+print ("\nA cossecante vale:", math.cosh(ang))
+print ("\nA cotangente vale:", math.tanh(ang))
