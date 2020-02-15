@@ -1,0 +1,7 @@
+print ("\n:: Calcule a área de um círculo de raio 𝑟 = 2. Lembrete: a área de um círculo de raio 𝑟 é: 𝐴∘ = 𝜋 𝑟2\n")
+
+r = 2
+pi = 3.14
+area = pi * r * 2
+
+print ("A area do círculo é:", area)
