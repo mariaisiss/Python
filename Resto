@@ -1,0 +1,7 @@
+print ("\n:: Calcule o resto da divisão de 10 por 3\n")
+
+a = 10
+b = 3
+resto = a % b
+
+print ("resto =", resto)
