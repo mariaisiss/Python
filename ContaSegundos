@@ -1,0 +1,7 @@
+print ("\n:: Quantos segundos há em 3 horas, 23 minutos e 17 segundos?\n")
+
+a = 60
+b = 3600
+calculasegundo = 3 * 3600 + 23 * 60 + 17
+
+print ("\nHá", calculasegundo, "segundos\n")
