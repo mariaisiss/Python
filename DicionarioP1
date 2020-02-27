@@ -1,0 +1,13 @@
+print ("Faça um dicionário com as 5 pessoas mais perto de você, tendo o nome como chave e a cor da camisa que está usando como valor.")
+
+p1 = ["luan", "vermelho"]
+p2 = ["josemar", "preto"]
+p3 = ["davi", "cinza"]
+p4 = ["maria", "preto"]
+p5 = ["reinan", "branco"]
+
+pessoas = [p1, p2, p3, p4, p5]
+
+turma = dict (pessoas)
+
+print (turma)
