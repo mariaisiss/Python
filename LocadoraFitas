@@ -1,0 +1,14 @@
+print ("Criar um programa que leia a quantidade de fitas de uma locadora de vídeo possui e o valor que ela cobra por cada aluguel, mostrando as informações pedidas a seguir: a) sabendo que um terço das fitas são alugadas por mês, exiba o faturamento anual da locadora; b)Quando o cliente atrasa a entrega, é cobrada uma multa de 10% sobre o valor do aluguel. Sabendo que um decimo das fitas alugadas no mês são devolvidas com atraso, calcule o valor ganho com multas por mês; c) sabendo ainda que 2% de fitas se estragam ao longo do ano, e um decimo do total é comprado para reposição, exiba a quantidade de fitas que a locadora terá no final do ano.\n")
+
+nFitas = int (input ("Digite o número de fitas:\n"))
+nAluguel = float (input ("Digite o valor de cada aluguel:\n"))
+
+faturamento = 12 * (nFitas/3) * nAluguel
+multa = ((nFitas/3)/10) * 10/100 * nAluguel
+estrago = 2/100 * nFitas
+compra = nFitas/10 
+nFitas += compra - estrago
+
+print ("a) O faturamento anual é R$ {:.2f}".format(faturamento))
+print ("b) O valor ganho com multas é R$ {:.2f}".format(multa))
+print ("c) Ao final do ano a locadora terá {:.0f} fitas".format(nFitas))
