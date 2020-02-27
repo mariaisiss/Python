@@ -1,0 +1,23 @@
+print ("Crie um dicionário vazio semana = {} e o complete com uma chave para cada dia da semana,tendo como seu valor uma lista com as aulas que você tem nesse dia. Sábado e domingo recebem listas vazias, ou você tem aula?")
+
+semana = dict()
+
+d1 = ["estrutura, arquitetura"]
+d2 = ["arquitetura"]
+d3 = ["laboratorio, estrutura"]
+d4 = ["estrutura, phyton"]
+d5 = ["laboratorio"]
+d6 = []
+d7 = []
+
+semana ["segunda"] = d1
+semana ["terça"] = d2
+semana ["quarta"] = d3
+semana ["quinta"] = d4
+semana ["sexta"] = d5
+semana ["sábado"] = d6
+semana ["domingo"] = d7
+
+print (semana)
+
+
