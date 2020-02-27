@@ -1,0 +1,10 @@
+print ("Entrar com um nome e imprimir: a) todo o nome; b) primeiro carcater; c) ultimo carcater; d) do primeiro ate o terceiro caracter; e)quarto caracter; f) os dois últimos.\n") 
+
+nome = input("Insira um nome:\n")
+
+print ("O nome é:", nome)
+print ("O primeiro caractere é:", nome[0])
+print ("O último caractere é:", nome[-1])
+print ("Os três primeiros caracteres são:", nome[0:3])
+print ("O quarto caractere é:", nome[3])
+print (f'Os dois últimos caracteres são: {nome[-2]}{nome[-1]}', )
