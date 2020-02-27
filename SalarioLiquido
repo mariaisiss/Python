@@ -1,0 +1,10 @@
+print ("Calcular o salario liquido de um professor. Os dados fornecidos serão: a) valor hora aula; b) numero de aulas dadas; c) percentual de desconto INSS.\n")
+ 
+nValor = float (input("Indique o valor da hora/aula:\n"))
+nAulas = int (input("Indique o número de aulas:\n")) 
+nDesconto = float (input("Indique o percentual de desconto do INSS:\n"))
+nSalario = nValor * nAulas 
+
+nSalario = nSalario - (nSalario* (nDesconto/100))
+
+print ("O salário líquido é ", nSalario)
