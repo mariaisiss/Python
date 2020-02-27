@@ -1,0 +1,9 @@
+print ("Entrar com dois números inteiros e imprimir a seguinte saída: a)dividendo; b) divisor; c) quociente; d) resto.\n")
+
+a = int (input("Insira um numero inteiro:\n"))
+b = int (input("Insira outro numero inteiro:\n"))
+
+print ("a) Dividendo =", a)
+print ("b) Divisor =", b)
+print ("c) Quociente =", a/b)
+print ("d) Resto =", a%b) 
