@@ -1,0 +1,25 @@
+print ("Crie três listas, uma lista de cada coisa a seguir:\n")
+
+frutas = ["banana", "maçã", "pêra"]
+docinhos = ["brigadeiro", "beijinho", "cajuzinho", "moranguinho"]
+feijoada = ["feijão", "calabresa", "carne seca", "costela", "lombo", "pimentão"]
+
+print ("\na) Agora crie uma lista que contém essas três listas:\n")
+listona = frutas + docinhos + feijoada
+print (listona)
+
+print ("\nb) Você consegue acessar o elemento brigadeiro?\n")
+print ('brigadeiro' in listona)
+
+print ("\nc) Adicione mais brigadeiros à segunda lista de listona. O que aconteceu com a lista de docinhos de festa?")
+
+docinhos.insert (2, '+brigadeiros')
+print (docinhos)
+
+print ("\nd) Adicione bebidas ao final da listona, mas sem criar uma lista!\n")
+listona.append ("bebidas")
+print (listona)
+
+print ("\ne) Utilizando o del, remova todos os elementos da lista criada anteriormente até a lista ficar vazia.")
+del listona [:]
+print (listona)
