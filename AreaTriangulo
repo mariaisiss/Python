@@ -1,0 +1,13 @@
+import math
+
+print ("\n:: Supondo um retângulo de 10cm de base e 5cm de altura, imprimir a seguinte saída perímetro: / área: / diagonal:\n")
+
+base = 10
+altura = 5
+
+p = (2 * base) + (2 * altura)
+a = (base * altura) / 2
+d = math.sqrt(base**2 * altura**2) 
+
+
+print ("\nPerímetro:", p, "/ Área:", a,"/ Diagonal:",d)
