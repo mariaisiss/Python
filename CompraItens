@@ -1,0 +1,12 @@
+print ("\n:: Você e os outros integrantes da sua república (Joca, Moacir, Demival e Jackson) foram no supermercado e compraram alguns itens: • 75 latas de cerveja: R$ 2,20 cada (da ruim ainda, pra fazer o dinheiro render) • 2 pacotes de macarrão: R$ 8,73 cada • 1 pacote de Molho de tomate: R$ 3,45 • 420g Cebola: R$ 5,40/kg • 250g de Alho: R$ 30/kg • 450g de pães franceses: R$ 25/kg. Calcule quanto ficou para cada um.\n")
+
+cvja = 75 * 2.20
+mac = 2 * 8.73
+mol = 3.45
+ceb = 420/1000 * 5.40
+alh = 250/1000 * 30
+pao = 450/1000 * 25
+
+contaCada = (cvja + mac + mol + ceb + alh + pao)/4
+
+print ("\nCada um pagou, em reais: R${:.2f}".format(contaCada))
