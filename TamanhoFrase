@@ -1,0 +1,14 @@
+print ("Dada a frase 'Python é muito legal'. Use fatiamento para dar nome às variáveis contendo cada palavra. Qual o tamanho dessa frase? E qual o tamanho de cada palavra?\n")
+
+frase = "Python é muito legal"
+
+p1 = frase[0:6]
+p2 = frase[7]
+p3 = frase[9:14]
+p4 = frase[15:21]
+
+print("O tamanho da frase é:", len (frase), "letras")
+print("O tamanho da primeira palavra é:", len(p1), "letras")
+print("O tamanho da segunda palavra é:", len(p2), "letras")
+print("O tamanho da terceira palavra é:", len(p3), "letras")
+print("O tamanho da quarta palavra é:", len(p4), "letras")
