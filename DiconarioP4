@@ -1,0 +1,4 @@
+print ("Crie um dicionário d e coloque nele seus dados: nome, idade, telefone, endereço. Usando o dicionário criado anteriormente, imprima seu nome.")
+
+dadosMaria = ["maria isis santos e santos", "33", "71997140374", "Salvador"]
+print (dadosMaria [0])
