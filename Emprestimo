@@ -1,0 +1,9 @@
+print ("Entrar com valor de um empréstimo, a taxa de juros e a quantidade de meses. Fazer um programa que calcule o valor da prestação.\n")
+
+valor = float (input ("Insira o valor do empréstimo\n"))
+taxa =  float (input ("Insira a taxa mensal de juros\n"))
+meses = int (input ("Insira o número de meses\n"))
+
+prest = ((valor + ((taxa/100) * meses * valor))) / meses
+
+print ("A prestação mensal é: R$ {:.2f}".format(prest))
