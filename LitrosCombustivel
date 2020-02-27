@@ -1,0 +1,13 @@
+print ("Calcular a quantidade de litros de combustível gastos em uma viagem, sabendo-se que o carro faz 12km com 1 litro. Deverão. Ser fornecidos a) tempo gasto na viagem; b) e a velocidade media. Apresentar os valores da velocidade media, tempo gasto, distancia percorrida e quatidade de litros gastos.\n")
+
+tempo = float (input("Indique o tempo da viagem em horas:\n"))
+
+velocidade = float (input("Indique a velocidade média da viagem em km/h\n"))
+
+distancia = tempo * velocidade
+litro = distancia/12
+
+print ("\nA velocidade média é:", velocidade, "km/h")
+print ("\nO tempo gasto é:", tempo, "horas")
+print ("\nA distancia percorrida é:", distancia, "km")
+print ("\nA quantidade de litros gastos é: {:.2f} litros".format(litro))
