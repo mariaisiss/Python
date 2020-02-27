@@ -1,0 +1,18 @@
+print ("Dado um numero de conta corrente com três dígitos, retorne o seu digito verificador, o qual é calculado da seguinte maneira. Exemplo: numero conta 235, somar o numero da conta com seu inverso : 235+532=767. Multiplicar cada digito pela sua ordem posicional e somar estes resultados: 7 6 7 (7x1+6x2+7x3) = 40. O ultimo digito desse resultado é o digito verificador da conta (40-> 0 )\n")
+
+cc = input("Digite sua conta de três digitos:\n")
+inverso = (cc[::-1])
+
+val1 = int (cc)
+val2 = int (inverso)
+soma = val1 + val2
+val3 = str(soma)
+
+num1 = int (val3[0])
+num2 = int (val3[1])
+num3 = int (val3[2])
+
+digito = num1 * 1 + num2 * 2 + num3 * 3
+codigo = str(digito)
+
+print ("O código é: ", codigo[1])
