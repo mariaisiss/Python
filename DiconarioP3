@@ -1,0 +1,11 @@
+print ("Crie um dicionário vazio filmes = {}. Utilize o nome de um filme como chave. E, como valor,outro dicionário contendo o vilão e o ano em que o filme foi lançado. Preencha 5 filmes.")
+
+filmes = {
+  "Coringa" : {"VILÃO" : "Arthur Fleck/Joker", "ANO" : 2019},
+  "Vingadores Guerra Infinita" : {"VILÃO" : "Thanos", "ANO" : 2018},
+  "Capitão América: Guerra Civil" : {"VILÃO" : "Ultron", "ANO" : 2016},
+  "Mulher-Maravilha" : {"VILÃO" : "Ares", "ANO" : 2017},
+  "Pantera Negra" : {"VILÃO" : "Killmonger", "ANO" : 2018},
+}
+
+print(filmes)
